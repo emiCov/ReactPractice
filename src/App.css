@@ -1,0 +1,35 @@
+.App {
+  margin: 2rem;
+}
+
+.solution-container {
+  border-top: 1px solid black;
+  margin-top: 1rem;
+}
+
+#square {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  width: 200px;
+  background-color: blue;
+}
+
+.login {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  justify-content: left;
+}
+
+.login > input {
+  width: 250px;
+  margin: 20px;
+}
+
+.login > button {
+  margin: 20px;
+  width: 150px;
+}
